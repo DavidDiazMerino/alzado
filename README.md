@@ -33,6 +33,7 @@ El proyecto `alzado` utiliza **Direct Upload**, con la rama de producción `main
 ```sh
 node configurar.mjs https://alzado.pages.dev/
 node scripts/comprobar.mjs
+node --test tests/geometria.test.mjs
 npx wrangler pages deploy public --project-name alzado --branch main
 ```
 
@@ -47,6 +48,8 @@ GitHub conserva el código; un `git push` por sí solo no despliega este proyect
 El reto cambia a las 00:00 UTC. La serie empieza el 11 de septiembre de 2026. `DAILY_IDS` fija las doce referencias y su calendario; añadir edificios a la colección no debe cambiar retrospectivamente esa lista.
 
 La primera comparación diaria se conserva; los reintentos son práctica. La racha premia participar. Los bocetos y las marcas dependen del navegador y del dominio: no se sincronizan. El cambio de nombre conserva la clave local histórica `fachadas.v3` para no perder partidas existentes en este mismo dominio.
+
+Desde Alzado 4.1 (motor 3.1), la comparación alinea el punto más bajo de ambas siluetas. El ajuste conserva las proporciones y el centrado horizontal; los detalles no determinan la base. La superposición, las tarjetas y las notas nuevas utilizan ese mismo ajuste. Las notas diarias y mejores marcas ya guardadas se conservan.
 
 La puntuación es una métrica de juego, no un juicio arquitectónico. Las referencias y el puntuador son públicos; no existe protección antitrampas ni clasificación global.
 

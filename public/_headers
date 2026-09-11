@@ -4,4 +4,4 @@
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), web-share=(self)
-  Content-Security-Policy: default-src 'none'; script-src 'sha256-rlMDSB5cUxwCSyn1c+a2HgWyBJviwEEJxqv6EfoccJQ='; style-src 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-DGP7gUeB9HkbzZ31at03jrodYFAQ2+sZLWnj7F+qqQA='; style-src 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests
