@@ -25,6 +25,8 @@ La política permite estilos inline porque la interfaz los utiliza. La autorizac
 
 Chromium automatizado con el servidor local de Wrangler aplicando `_headers`: arranque sin errores JavaScript ni infracciones CSP; doce edificios; contornos exactos con nota 100; dibujo, deshacer, rehacer y recuperación del boceto tras recargar; generación y descarga PNG; alternativa a compartir archivos; nueva marca en textos y nombres de descarga; parámetros maliciosos y datos locales inválidos sin inyección HTML; interfaz sin desbordamiento horizontal a 320, 390 y 768 píxeles; funcionamiento con almacenamiento denegado.
 
+La misma prueba de navegador se repitió satisfactoriamente sobre la URL de producción tras desplegar. El HTML y la imagen social servidos coinciden con los archivos locales. Se verificó además que el navegador bloquea un script inline ajeno al hash y una petición `fetch`, y que las rutas inexistentes mantienen respuesta 404. Cloudflare confirma un despliegue de producción satisfactorio y sin Functions.
+
 La comprobación reproducible `node scripts/comprobar.mjs` valida sintaxis, hash CSP, cabeceras, metadatos, marca y lista cerrada de archivos publicables. No sustituye las pruebas de navegador.
 
 No se han probado en dispositivos físicos Safari/iOS, Apple Pencil, la hoja nativa de compartir ni la caché de previsualizaciones de WhatsApp. Tampoco se han realizado pruebas de carga o ataques contra la infraestructura de Cloudflare, ni se ha auditado la seguridad de acceso a las cuentas del propietario.
